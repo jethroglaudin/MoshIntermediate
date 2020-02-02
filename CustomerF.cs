@@ -6,7 +6,7 @@ namespace Mosh_Intermediate
     {
         public int Id;
         public string Name;
-        public List<Order> Orders = new List<Order>();
+        public readonly List<Order> Orders = new List<Order>();
 
         public CustomerF(int id)
         {
@@ -21,7 +21,8 @@ namespace Mosh_Intermediate
 
         public void Promote()
         {
-            // 
+            
+            //...
         }
     }
 }
