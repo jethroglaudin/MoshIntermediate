@@ -8,7 +8,7 @@ namespace Mosh_Intermediate
 
         public void SetBirthdate(DateTime birthdate)
         {
-            _birthdate = birthdate;
+            this._birthdate = birthdate;
         }
 
         public DateTime GetBirthDate()
