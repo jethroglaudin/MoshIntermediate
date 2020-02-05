@@ -20,7 +20,6 @@ namespace Mosh_Intermediate
             {
                 var timeSpan = DateTime.Today - Birthdate;
                 var years = timeSpan.Days/365;
-
                 return years;
             }
         }
