@@ -28,6 +28,12 @@ namespace StopWatch
 
                 }
 
+                if (!string.IsNullOrWhiteSpace(userInput))
+                {
+                    Console.WriteLine("Input must be the enter key");
+                    continue;
+                }
+
                 break;
             }
 

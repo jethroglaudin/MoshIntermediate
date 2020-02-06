@@ -7,16 +7,20 @@ namespace StopWatch
         private DateTime _startTime;
         private DateTime _stopTime;
         private TimeSpan _duration;
-        private bool _isRunning;
+        private bool _isRunning = false;
 
         public void Start()
         {
             try
             {
-                Console.WriteLine("Timer is running");
+                if (!_isRunning)
+                {
+                    Console.WriteLine("Timer is running");
 
-                _startTime = DateTime.UtcNow;
-                _isRunning = true;
+                    _startTime = DateTime.UtcNow;
+                    _isRunning = true;
+                }
+                
             }
             catch (Exception ex)
             {
@@ -28,8 +32,13 @@ namespace StopWatch
         {
             try
             {
-                _stopTime = DateTime.UtcNow;
-                _isRunning = false;
+                if (_isRunning)
+                {
+                    _stopTime = DateTime.UtcNow;
+                    _isRunning = false;
+
+                }
+                
 
             }
             catch (Exception ex)
