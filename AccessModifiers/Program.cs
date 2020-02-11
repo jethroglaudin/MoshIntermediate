@@ -1,12 +1,15 @@
-﻿using System;
+﻿using Amazon;
 
 namespace AccessModifiers
 {
+   
     class MainClass
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var customer = new Customer();
+            Amazon.RateCalculator calculator = new RateCalculator();
+            
         }
     }
 }
