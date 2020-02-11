@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition", "Composition.csproj", "{CF2417F6-211B-44AA-B9AA-2B484039978F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF2417F6-211B-44AA-B9AA-2B484039978F}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{CF2417F6-211B-44AA-B9AA-2B484039978F}.Debug|anycpu.Build.0 = Debug|anycpu
+		{CF2417F6-211B-44AA-B9AA-2B484039978F}.Release|anycpu.ActiveCfg = Release|anycpu
+		{CF2417F6-211B-44AA-B9AA-2B484039978F}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
