@@ -6,7 +6,8 @@ namespace ConstructorInheritance
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var car = new Car("XYZ");
+
         }
     }
 }
