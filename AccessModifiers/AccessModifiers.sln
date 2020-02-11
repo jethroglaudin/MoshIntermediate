@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers.csproj", "{1BBC59ED-FABB-46B0-8F6E-BBC4C3D12C4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{0D191F74-BEAA-4934-B3B2-A71079C5C9FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -13,5 +15,9 @@ Global
 		{1BBC59ED-FABB-46B0-8F6E-BBC4C3D12C4F}.Debug|anycpu.Build.0 = Debug|anycpu
 		{1BBC59ED-FABB-46B0-8F6E-BBC4C3D12C4F}.Release|anycpu.ActiveCfg = Release|anycpu
 		{1BBC59ED-FABB-46B0-8F6E-BBC4C3D12C4F}.Release|anycpu.Build.0 = Release|anycpu
+		{0D191F74-BEAA-4934-B3B2-A71079C5C9FD}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{0D191F74-BEAA-4934-B3B2-A71079C5C9FD}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{0D191F74-BEAA-4934-B3B2-A71079C5C9FD}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{0D191F74-BEAA-4934-B3B2-A71079C5C9FD}.Release|anycpu.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

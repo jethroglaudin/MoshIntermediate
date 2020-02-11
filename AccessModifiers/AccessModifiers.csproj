@@ -33,5 +33,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Amazon\Amazon.csproj">
+      <Project>{0D191F74-BEAA-4934-B3B2-A71079C5C9FD}</Project>
+      <Name>Amazon</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
