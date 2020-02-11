@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance.csproj", "{BDCC29A8-11DE-42A9-B4DD-0C2C4A463713}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorInheritance", "ConstructorInheritance\ConstructorInheritance.csproj", "{EB2C3691-9B84-4B91-99D8-B452C0158A5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -13,5 +15,9 @@ Global
 		{BDCC29A8-11DE-42A9-B4DD-0C2C4A463713}.Debug|anycpu.Build.0 = Debug|anycpu
 		{BDCC29A8-11DE-42A9-B4DD-0C2C4A463713}.Release|anycpu.ActiveCfg = Release|anycpu
 		{BDCC29A8-11DE-42A9-B4DD-0C2C4A463713}.Release|anycpu.Build.0 = Release|anycpu
+		{EB2C3691-9B84-4B91-99D8-B452C0158A5F}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{EB2C3691-9B84-4B91-99D8-B452C0158A5F}.Debug|anycpu.Build.0 = Debug|anycpu
+		{EB2C3691-9B84-4B91-99D8-B452C0158A5F}.Release|anycpu.ActiveCfg = Release|anycpu
+		{EB2C3691-9B84-4B91-99D8-B452C0158A5F}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal
