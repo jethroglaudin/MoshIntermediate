@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorInheritance", "ConstructorInheritance\ConstructorInheritance.csproj", "{EB2C3691-9B84-4B91-99D8-B452C0158A5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting", "Casting\Casting.csproj", "{49C62F0B-6EAC-496D-B8AE-C5EC848CABA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -19,5 +21,9 @@ Global
 		{EB2C3691-9B84-4B91-99D8-B452C0158A5F}.Debug|anycpu.Build.0 = Debug|anycpu
 		{EB2C3691-9B84-4B91-99D8-B452C0158A5F}.Release|anycpu.ActiveCfg = Release|anycpu
 		{EB2C3691-9B84-4B91-99D8-B452C0158A5F}.Release|anycpu.Build.0 = Release|anycpu
+		{49C62F0B-6EAC-496D-B8AE-C5EC848CABA8}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{49C62F0B-6EAC-496D-B8AE-C5EC848CABA8}.Debug|anycpu.Build.0 = Debug|anycpu
+		{49C62F0B-6EAC-496D-B8AE-C5EC848CABA8}.Release|anycpu.ActiveCfg = Release|anycpu
+		{49C62F0B-6EAC-496D-B8AE-C5EC848CABA8}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal
