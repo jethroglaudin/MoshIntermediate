@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace MethodOverriding
 {
@@ -8,8 +7,8 @@ namespace MethodOverriding
         static void Main(string[] args)
         {
             var shapes = new List<Shape>();
-            shapes.Add(new Shape { Width = 100, Height = 100, Type = ShapeType.Circle });
-            shapes.Add(new Shape { Width = 100, Height = 30, Type = ShapeType.Rectangle });
+            shapes.Add(new Circle());
+            shapes.Add(new Rectangle());
 
             var canvs = new Canvas();
             canvs.DrawShapes(shapes);
