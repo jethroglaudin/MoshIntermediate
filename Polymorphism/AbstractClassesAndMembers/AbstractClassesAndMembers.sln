@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassesAndMembers", "AbstractClassesAndMembers.csproj", "{D91A089E-3605-4223-9B18-0F24F6A7E030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D91A089E-3605-4223-9B18-0F24F6A7E030}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{D91A089E-3605-4223-9B18-0F24F6A7E030}.Debug|anycpu.Build.0 = Debug|anycpu
+		{D91A089E-3605-4223-9B18-0F24F6A7E030}.Release|anycpu.ActiveCfg = Release|anycpu
+		{D91A089E-3605-4223-9B18-0F24F6A7E030}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
