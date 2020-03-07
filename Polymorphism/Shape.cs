@@ -1,4 +1,6 @@
-﻿namespace MethodOverriding
+﻿using System;
+
+namespace MethodOverriding
 {
    public class Circle : Shape
     {
@@ -16,11 +18,19 @@
 
         }
     }
+
+    public class Triangle: Shape
+    {
+        public override void Draw()
+        {
+            Console.WriteLine("Draw a triange");
+        }
+    }
    public class Shape
     {
         public int Width { get; set; }
         public int Height { get; set; }
-        public Position Position { get; set; }
+        //public Position Position { get; set; }
 
         public virtual void Draw()
         {
