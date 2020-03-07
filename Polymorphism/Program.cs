@@ -1,12 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace Polymorphism
+namespace MethodOverriding
 {
     class MainClass
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var shapes = new List<Shape>();
+            shapes.Add(new Shape { Width = 100, Height = 100, Type = ShapeType.Circle });
+            shapes.Add(new Shape { Width = 100, Height = 30, Type = ShapeType.Rectangle });
+
+            var canvs = new Canvas();
+            canvs.DrawShapes(shapes);
+           
         }
     }
 }
