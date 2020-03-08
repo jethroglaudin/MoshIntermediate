@@ -1,11 +1,14 @@
 ﻿using System;
 
-namespace Interfaces
+namespace Testability
 {
     class MainClass
     {
         public static void Main(string[] args)
         {
+            var orderProcessor = new OrderProcessor();
+            var order = new Order { DatePlaced = DateTime.Now, TotalPrice = 100f };
+            orderProcessor.Process(order);
             Console.WriteLine("Hello World!");
         }
     }
