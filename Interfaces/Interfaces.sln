@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces.csproj", "{885D5E71-AE05-432E-9A32-EEDAFDE3BE0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testability.UnitTests", "Testability.UnitTests\Testability.UnitTests.csproj", "{F8AE379B-96F6-490B-B97F-A936AA3E9A22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -13,5 +15,9 @@ Global
 		{885D5E71-AE05-432E-9A32-EEDAFDE3BE0A}.Debug|anycpu.Build.0 = Debug|anycpu
 		{885D5E71-AE05-432E-9A32-EEDAFDE3BE0A}.Release|anycpu.ActiveCfg = Release|anycpu
 		{885D5E71-AE05-432E-9A32-EEDAFDE3BE0A}.Release|anycpu.Build.0 = Release|anycpu
+		{F8AE379B-96F6-490B-B97F-A936AA3E9A22}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{F8AE379B-96F6-490B-B97F-A936AA3E9A22}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{F8AE379B-96F6-490B-B97F-A936AA3E9A22}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{F8AE379B-96F6-490B-B97F-A936AA3E9A22}.Release|anycpu.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
