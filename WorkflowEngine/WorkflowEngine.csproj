@@ -39,6 +39,8 @@
     <Compile Include="ChangeStatus.cs" />
     <Compile Include="WorkFlow.cs" />
     <Compile Include="WorkFlowEngine.cs" />
+    <Compile Include="IInitTask.cs" />
+    <Compile Include="IWorkFlow.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
