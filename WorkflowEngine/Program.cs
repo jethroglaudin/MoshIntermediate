@@ -3,6 +3,13 @@ using System.Collections.Generic;
 
 namespace WorkflowEngine
 {
+    public class Logger
+    {
+        public void Log(String message)
+        {
+            Console.WriteLine(message);
+        }
+    }
     public interface IInitTask
     {
         void Execute();
@@ -14,35 +21,43 @@ namespace WorkflowEngine
         IEnumerable<IInitTask> GetTasks();
     }
 
-    public class UploadVideo : IInitTask
+    public class UploadVideo : Logger, IInitTask
     {
+        private string _message = "Uploading User's Video";
+
         public void Execute()
         {
-            Console.WriteLine("Uploading user's video....");
+            Log(_message);
         }
     }
 
-    public class WebService : IInitTask
+    public class WebService : Logger, IInitTask
     {
+        private string _message = "Calling Web service to encode user's video....";
+
         public void Execute()
         {
-            Console.WriteLine("Calling Web service to encode user's video....");
+            Log(_message);
         }
     }
 
-    public class Email : IInitTask
+    public class Email : Logger, IInitTask
     {
+        private string _message = "Sending confirmation email....";
+
         public void Execute()
         {
-            Console.WriteLine("Sending confirmation email....");
+            Log(_message);
         }
     }
 
-    public class ChangeStatus : IInitTask
+    public class ChangeStatus : Logger, IInitTask
     {
+        private string _message = "Status changed to processing....";
+
         public void Execute()
         {
-            Console.WriteLine("Status changed to processing....");
+            Log(_message);
         }
     }
 
