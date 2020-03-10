@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowEngine", "WorkflowEngine.csproj", "{E6294EA9-9F19-405A-B40D-BCFE18A56D28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6294EA9-9F19-405A-B40D-BCFE18A56D28}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E6294EA9-9F19-405A-B40D-BCFE18A56D28}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E6294EA9-9F19-405A-B40D-BCFE18A56D28}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E6294EA9-9F19-405A-B40D-BCFE18A56D28}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
